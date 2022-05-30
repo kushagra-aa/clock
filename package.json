@@ -1,0 +1,18 @@
+{
+  "name": "clock",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.0-rc.13",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.0.0-rc.6"
+  }
+}
